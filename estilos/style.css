@@ -186,6 +186,73 @@ body{
     padding-top: 30px;
 }
 
+/* habilidades */
+.Habilidades .container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.Habilidades .title{
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.Habilidades .title h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+.box-circle{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    padding: 10px 20px;
+    
+    
+}
+.box-circle .text-number{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 6;
+    stroke: black;
+    transform: translate(5px , 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke:aqua ;
+}
+circle:nth-child(2){
+    stroke-dashoffset: calc(440 - 352);
+    stroke: black;
+}
+.box-circle .text-number h2{
+    font-family: 'Carter One', cursive;
+    font-size: 1.3em;
+}
+
+.java-script circle:nth-child(2){
+    stroke-dashoffset: calc(440 - 308);
+}
+.box-circle .text-number span {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
 
 
 @media only screen and (max-width: 600px){
