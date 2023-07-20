@@ -269,4 +269,46 @@ circle:nth-child(2){
         padding: 10px 0;
 
     }
+
+    .biography .container{
+        overflow: hidden;
+    }
+
+    .biography .container .box-container{
+        display: block;
+    }
+    
+    .biography .container .box-container .list{
+        margin: auto;
+        height: 300px;
+        
+        padding: 35px 0;
+    }
+    .biography .container .box-container .list ul li{
+        list-style: none;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.1em;
+        
+        padding: 25px 10px;
+     }
+
+     .biography .container .box-container .text-biography{
+        text-align: center;
+        width: 500px;
+        
+
+     }
+
+     .biography .container .box-container .text-biography h3{
+        margin-top: 10px;
+     }
+
+     .biography .container .box-container .text-biography h4{
+        text-align: justify;
+        font-size: 1.1em;
+     }
+
+     .biography .container .box-container .text-biography h4 p{
+        padding: 10px 0;
+     }
 }
