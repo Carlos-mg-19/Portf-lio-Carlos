@@ -192,14 +192,14 @@ body{
     justify-content: center;
     padding: 20px;
 }
-.Habilidades .title{
+ .title{
     height: 150px;
     text-align: center;
     align-items: center;
     
     
 }
-.Habilidades .title h2{
+ .title h2{
     font-family: 'Roboto Mono', monospace;
     font-size: 2.5em;
     font-weight: normal;
@@ -252,6 +252,43 @@ circle:nth-child(2){
     font-size: 1.3em;
     font-weight: bold;
 }
+
+
+.projetos{
+    margin-top: 50px;
+}
+
+.projetos .box-container .container {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 310px));
+    justify-content: center;
+    gap: 25px;
+}
+
+.projetos .box-container .container .box{
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+}
+.projetos .box-container .container .box span{
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.projetos .box-container .container .box:hover{
+    border: 1px solid aqua;
+}
+
+
+
 
 
 
