@@ -256,6 +256,7 @@ circle:nth-child(2){
 
 .projetos{
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .projetos .box-container .container {
