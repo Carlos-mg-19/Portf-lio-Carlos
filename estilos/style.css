@@ -190,7 +190,7 @@ body{
 .Habilidades .container{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 48px;
 }
  .title{
     height: 150px;
@@ -295,10 +295,9 @@ circle:nth-child(2){
 
 @media only screen and (max-width: 600px){
 
-    .header .container .box-container{
-        position: absolute;
-        top: 30%;
-        left: 35%;
+    .header .container {
+       display: flex;
+       justify-content: center;
     }
 
     .container .box-container .text h1{
@@ -348,5 +347,8 @@ circle:nth-child(2){
 
      .biography .container .box-container .text-biography h4 p{
         padding: 10px 0;
+     }
+     .Habilidades .container .box {
+        
      }
 }
